@@ -11,7 +11,7 @@ const { Pool } = pg;
 
 
 const pool = new Pool({
-  connectionString: process.env.POSTGRES_URL,  // Verifique o nome correto
+  connectionString: process.env.POSTGRES_URL_URL,  // Verifique o nome correto
 });
 
 pool.connect((err) => {
